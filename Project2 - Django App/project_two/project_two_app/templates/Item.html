@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% load static %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/ItemStyle.css' %}">
+    <title>Product</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <h2 style="color: teal;">FAILSAFE</h2>
+        <a class="nav-item nav-link active" href="http://localhost:8000/cart">Shopping Cart ()</a>
+    </nav>
+    <div class="container-fluid">
+        <a href="http://localhost:8000/items">Go Back</a>
+    <div class="row">
+        <div class="span2">
+            <!--Sidebar content-->
+            <h3>{{TheProduct.name}}</h3>
+            <img class="mimg" src="{% static "img\mavic-mini1-e1572276067126.jpg" %}" alt="Mavic Mini">
+            <div class="under">
+                <img src="{% static "img\mavic-mini1-e1572276067126.jpg" %}" alt="Mavic Mini" style="width: 90px; height: 100px;">
+                <img src="{% static "img\mavic-mini1-e1572276067126.jpg" %}" alt="Mavic Mini" style="width: 90px; height: 100px;">
+                <img src="{% static "img\mavic-mini1-e1572276067126.jpg" %}" alt="Mavic Mini" style="width: 90px; height: 100px;">
+            </div>
+        </div>
+        <div class="span10">
+            <!--Body content-->
+            <p>
+                Lorizzle ipsizzle dolizzle sizzle i saw beyonces tizzles and my pizzle went crizzle, yo adipiscing elit. Fo break it down velizzle, rizzle volutpat, rizzle quis, nizzle vizzle, boom shackalack. Boom shackalack i saw beyonces tizzles and my pizzle went crizzle you son of a bizzle. Sizzle erizzle. I saw beyonces tizzles and my pizzle went crizzle uhuh ... yih! dolizzle dapibizzle shit tempizzle fo shizzle my nizzle. Mauris pellentesque fo shizzle crazy yo mamma. Phat izzle tortizzle. Pellentesque shut the shizzle up rhoncizzle nisi. In hac habitasse platea dictumst. Dizzle dapibizzle. Check it out tellizzle da bomb, pretizzle ma nizzle, mattizzle izzle, we gonna chung vitae, nunc. Brizzle suscipizzle. Integer semper sizzle da bomb.
+                Vivamizzle nec mauris yo nisi consectetuer pretizzle. Vivamus sit amizzle my shizz. Nam eu nisl eget away auctizzle fo shizzle. Praesent suscipit my shizz ipsum. Curabitizzle rizzle arcu. Fizzle enim enim, you son of a bizzle fo shizzle, congue gangsta, my shizz the bizzle, shiznit. Dang vitae shiz you son of a bizzle eros posuere brizzle. Quisque ma nizzle fo shizzle, congue pulvinizzle, bizzle a, mollis sizzle amet, erizzle. Break it down at nizzle. Pot check it out purus, fo shizzle consectetuer, sollicitudin in, fizzle imperdiet, doggy. Quisque bow wow wow phat fizzle mi rutrizzle vehicula. Check it out accumsan sagittizzle ipsizzle. Stuff fizzle its fo rizzle tristique senectus go to hizzle ma nizzle et malesuada famizzle izzle that's the shizzle ass. Bling bling est. Curabitur elementizzle. Ut eros fo shizzle, pot quis, suscipizzle izzle, things pulvinizzle, nisl. Doggy sagittis gravida velit.
+                pharetra bizzle, magna dang ultricies neque, non things urna izzle quis nibh. Vivamizzle shizzlin dizzle neque, we gonna chung ut, ornare izzle, dang go to hizzle, leo. Praesent purizzle dizzle, bibendum sizzle amet, interdum vehicula, dignissim shut the shizzle up, arcu. Aenean dawg ipsum izzle shizznit ullamcorpizzle tincidunt. Bizzle dang. Maurizzle get down get down urna, tempor dope, crackalackin venenatizzle, sodales nizzle, . Etizzle mammasay mammasa mamma oo sa.
+            </p>
+        </div>
+    </div>
+    <div class="underAll">
+        <h4>Similar Items</h4>
+        <img src="{% static "img\images.jfif" %}" alt="Mavic Mini" style="width: 90px; height: 100px; margin-right: 20px;">
+        <img src="{% static "img\images.jfif" %}" alt="Mavic Mini" style="width: 90px; height: 100px; margin-right: 20px;">
+        <img src="{% static "img\images.jfif" %}" alt="Mavic Mini" style="width: 90px; height: 100px; margin-right: 20px;">
+        <img src="{% static "img\images.jfif" %}" alt="Mavic Mini" style="width: 90px; height: 100px; margin-right: 20px;">
+        <img src="{% static "img\images.jfif" %}" alt="Mavic Mini" style="width: 90px; height: 100px; margin-right: 20px;">
+        <img src="{% static "img\images.jfif" %}" alt="Mavic Mini" style="width: 90px; height: 100px; margin-right: 20px;">
+        <img src="{% static "img\images.jfif" %}" alt="Mavic Mini" style="width: 90px; height: 100px; margin-right: 20px;">
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

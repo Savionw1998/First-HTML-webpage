@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% load static %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/OrderDash.css' %}">
+    <title>Orders Dashboard</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<body>
+    <nav class="navbar bg-dark" style="width: 1500px;">
+        <a href="http://localhost:8000/items"><h2 style="color: teal;">FAILSAFE</h2></a>
+        <a class="nav-item nav-link active" href="#" style="text-decoration: underline;"> Orders</a>
+        <a class="nav-item nav-link" href="http://localhost:8000/dashboard/products">Products</a>
+        <a class="nav-item nav-link" href="http://localhost:8000">Logout</a>
+    </nav>
+    
+    <h1>Welcome, Savion</h1>
+    <div>
+        <div class="dropdown" style="margin-right: 60px; float: right;">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Show All
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <button class="dropdown-item" type="button">In-Process</button>
+            <button class="dropdown-item" type="button">Shipped</button>
+            <button class="dropdown-item" type="button">Cancelled</button>
+        </div>
+        </div>
+    </div>
+
+    </div>
+<div style="margin-left: 50px;">
+    <input type="search" placeholder="Search for Product" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</div>
+    <div class="product_table">
+    <table class="table">
+        <Thead>
+            <Tr>
+                <td>Picture</td>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Inventory Count</td>
+                <td>Quantity Sold</td>
+                <td>Action</td>
+            </Tr>
+        </Thead>
+        <Tr style="color: black;">
+            <td><a href="http://localhost:8000/orders/show"><img src="{% static "img\mavic-mini1-e1572276067126.jpg" %}" alt="Mavic Mini" style="width: 90px; height: 100px;"></a>
+            </td>
+            <td>{{TheProduct.id}}</td>
+            <td>{{TheProduct.name}}</td>
+            <td>10</td>
+            <td>5</td>
+            <td>
+                <a href="http://localhost:8000/product/edit"><option>Edit</option></a>
+                <a href=""><option>Remove</option></a>
+            </td>
+        </Tr>
+    </table>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

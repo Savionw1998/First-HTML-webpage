@@ -1,0 +1,55 @@
+body {
+    background: url("../img/universe-1800259_1920.jpg");
+    width: 1500px;
+    margin: 15px;
+}
+
+.navbar {
+    width: 1490px;
+}
+
+.span2 {
+    width: 310px;
+    height: 310px;
+    margin: 20px;
+    color: black;
+}
+
+.container-fluid {
+    width: 1300px;
+    height: 840px;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: black;
+    padding: 15px;
+    background-color: #114467;
+}
+
+.span10 {
+    width: 800px;
+    height: 620px;
+    margin-left: 30px;
+    color: white;
+    padding: 45px;
+}
+
+.mimg {
+    width: 310px;
+    height: 310px;
+    margin-left: 20px;
+}
+
+.under {
+    width: 300px;
+    height: 600px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.underAll {
+    width: 820px;
+    height: 100px;
+    padding: 10px;
+    float: right;
+    margin: 10px;
+}

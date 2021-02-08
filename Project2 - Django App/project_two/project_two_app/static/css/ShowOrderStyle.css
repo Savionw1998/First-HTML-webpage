@@ -1,0 +1,64 @@
+body {
+    background: url("../img/universe-1800259_1920.jpg");
+    height: 600px;
+    width: 1536px;
+    margin: 15px;
+}
+
+.container {
+    width: 1500px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 180px;
+    color: black;
+    padding: 15px;
+}
+
+.table {
+    width: 600px;
+    height: 200px;
+    float: right;
+    margin-right: 100px;
+    color: green;
+    background-color: black;
+}
+
+.ship {
+    width: 300px;
+    height: 200px;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 3px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #D08452;
+}
+
+.prog {
+    width: 300px;
+    height: 200px;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 3px;
+    float: right;
+    margin-right: 70px;
+    background-color: white;
+    padding: 10px;
+}
+
+.status {
+    width: 300px;
+    height: 50px;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 3px;
+    float: right;
+    margin-right: 70px;
+    padding: 12px;
+    background-color: green;
+}
+
+.navbar {
+    margin: 20px;
+    width: 1470px;
+}

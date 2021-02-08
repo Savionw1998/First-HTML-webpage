@@ -1,0 +1,36 @@
+body {
+    background: url("../img/universe-1800259_1920.jpg");
+    height: 600px;
+    width: 1536px;
+}
+
+.reg {
+    height: 160px;
+    text-align: right;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.title {
+    /* font-family: "Sofia", sans-serif; */
+    color: #F7900F;
+    height: 150px;
+    text-align: center;
+    width: 1536px;
+
+}
+
+.login {
+    text-align: center;
+    height: 300px;
+    width: 1536px;
+    color: black;
+}
+
